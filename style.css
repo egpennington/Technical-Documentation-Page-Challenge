@@ -1,0 +1,134 @@
+.grid {
+  display: flex;
+}
+body {
+    line-height: 1.5;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+div#header {
+    width: 100%;
+    height: 80px;
+    background-color: #990000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;    
+}
+div#header h2, div#invisible-header h2 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 2em;
+    padding: 0;
+}
+div#header img, div#invisible-header img {
+    float: left;
+    margin: 1em;
+    width: 40px;
+    height: 47px;
+}
+div#invisible-header{
+    width: 100%;
+    height: 80px;
+    visibility: hidden;
+}
+#main-doc{
+    width: 80%;
+    heigth: 100%;
+    float: right;
+    background-color: lightgray;
+}
+.main-section {
+    margin: 2.5em;
+}
+#navbar {
+    position: fixed;
+    width:18%;
+    height: 100%;
+    float: left;
+    background-color: whitesmoke;
+}
+/*
+navbar {
+    position: fixed;
+    border-right: solid;
+    border-color: black;
+}
+*/
+.nav {
+    display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: .7em;
+    margin: 0;
+}
+navbar#header {
+    margin: 10px;
+    text-align: center;
+}
+#navbar ul {
+    height: 70%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.no-wrap {
+    clear: both;
+}
+header {
+    font-size: 2.2em;
+}
+p.clearfloat {
+    clear: both;
+}
+/* p {
+    margin: 2.5em;
+}*/
+h2 {
+    margin: 1em;
+    text-align: left;
+}
+blockquote {
+    background-color: beige;
+    padding: 1em;
+}
+a.nav-link {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+}
+.indent {
+    margin-left: 3em;
+    line-height: 2em;
+}
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+/*    overflow-y: scroll;
+    overflow-x: hidden;
+*/
+}
+code {
+    display: block;
+    text-align: left;
+    padding: 15px;
+    margin: 10px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+/* scroll bar try 
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border: 7px solid #232993;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradiant(
+    45deg, gray, lightgray)
+} */
